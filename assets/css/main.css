@@ -133,11 +133,19 @@ input, select, textarea {
 		margin: 0 0 2.25em 0;
 	}
 
-	h1, h2, h3, h4, h5, h6 {
+	h1,  h3, h4, h5, h6 {
 		color: #777;
 		font-weight: 700;
 		line-height: 1em;
 		margin: 0 0 0.5625em 0;
+	}
+
+	h2{
+		color: #FF5910;
+		font-weight: 700;
+		line-height: 1em;
+		margin: 0 0 0.5625em 0;
+
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -1785,7 +1793,7 @@ input, select, textarea {
 	}
 
 	header.major h2 {
-		color: #0F52BA;
+		color: #FF5910;
 		font-size: 3.5em;
 	}
 
@@ -2701,7 +2709,7 @@ input, select, textarea {
 		-ms-justify-content: space-between;
 		justify-content: space-between;
 		background: #0F52BA;
-		color: #0F52BA;
+		color: #FF5910;
 		height: 100%;
 		overflow-y: auto;
 		position: fixed;
